@@ -1,3 +1,52 @@
-p{
-    text-align: center;
+body {
+  margin: 0px;
+}
+
+#banner {
+  width: 100%;
+}
+.principal {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+p {
+  text-align: center;
+}
+
+#grande {
+  font-size: 20px;
+}
+em strong {
+  color: red;
+}
+
+.divbeneficios {
+  background-color: white;
+}
+
+ul {
+  font-style: italic;
+
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+.beneficiosimg {
+  width: 50%;
+}
+html {
 }
