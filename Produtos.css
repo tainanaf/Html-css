@@ -1,5 +1,7 @@
 header {
   background-color: #bbb;
+  padding: 20px 0px;
+  width: 100%;
 }
 
 h1 {
@@ -24,13 +26,88 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
-
+nav a:hover {
+  color: rgba(248, 72, 72, 0.979);
+}
+nav a:active {
+  color: #088c19;
+}
 .caixa {
   width: 940px;
   position: relative;
   margin: 0 auto;
 }
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+  height: 664px;
+  display: flex;
+  align-items: center;
+}
 
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.produtos li:hover {
+  border-color: red;
+}
+
+.produtos li:active {
+  border-color: #088c19;
+  background-color: #ccc;
+  transition: background-color 0.12s linear;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  transition: font-size 0.1s;
+}
+
+.produto-descrição {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 520;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: 1px black dashed;
+  margin: 0;
+}
+.produto-preco:hover {
+  color: #088c19;
+  font-size: 30px;
+}
+footer {
+  text-align: center;
+  background: url("assets/bg.jpg");
+  padding: 40px 0;
+}
+footer p {
+  color: white;
+  font-size: 13px;
+}
 body {
   margin: 0px;
+}
+html {
+  margin: 0;
 }
